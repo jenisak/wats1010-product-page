@@ -1,8 +1,79 @@
-/* Styles for Product Page Customization */
+ /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
+*{
+  font-family: "Gill Sans"; 
+  font-size: x-large;
+} 
 
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+    color: black;
+    background-image: url("design/images/icons_faded.png");
+    background-attachment: fixed;
 }
+.navbar-brand{
+  font-size: x-large;
+}
+
+h2{
+  font-weight: bold;
+}
+.row{
+  background-color: rgba(149, 172, 181, 0.7);
+  margin-top: 20px;
+}
+
+.nav navbar-nav {
+  margin: 22px;
+}
+
+.collapse navbar-collapse navbar-right{
+  margin: 20px;
+}
+.row{
+  margin-top: 100px;
+}
+#social{
+  position: fixed;
+  top: 40px;
+  right: 10px;
+  width: 100px;
+  text-align: right;
+}
+
+#social li:hover{
+  background-color: gray;
+  opacity: .5;
+}
+
+ul.social-links{
+  list-style: none;
+  margin: 2px;
+  padding: 0 10;
+  line-height: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #ed7c76; 
+  color: white;
+}
+.fa-instagram {
+  background: #efa021;
+  color: white;
+}
+

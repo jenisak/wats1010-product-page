@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+      
+      <meta name="description" content="API Superstore is a one-stop shop for all your website API needs">
+      <meta name="author" content="Jenna Isakson">
+      
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
         <!-- You can remove the ``link`` tags below if you don't want to use
@@ -16,39 +18,236 @@
              Please Note: This repo does not include the Bootstrap Javascript
              plugins, so you cannot use the features documented under
              "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+       <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="main.css">
+      <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- End Bootstrap CSS Framework -->
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
+      
+      
 
     </head>
     <body>
         <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
+    
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
+ <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+       <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">API Superstore</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="about.html">Browse Catalog</a></li>
+        <li><a href="services.html">Pricing</a></li>
+        <li><a href="blog-home-1.html">Blog</a><li>
+        <li><a href="contact.html">Get Started</a></li> 
+      </ul>
+    </div>
+  </div>
+    </nav>
+
 
         <!-- TODO: Create an area to put the explainer video. -->
 
-        <!-- TODO: Create an area to put the long product description. -->
+    <div class="row">
+            <div class="col-lg-12">
 
+                <h2 class="page-header">Save time...and maybe money!</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The API Superstore provides a catalog of third party APIs that you can use to enhance your business. From e-commerce to maps, API superstore lists all of the services that your customers expect and saves you the headache of sorting it out yourself Get started today!</p> 
+            </div>
+            <div class="col-md-6">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="20px" gesture="media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- TODO: Create an area to put the long product description. -->
         <!-- TODO: Create an area to put customer testimonials. -->
 
         <!-- TODO: Create an area to show features. -->
+ <!-- Service List -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+       <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Features</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service One</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Two</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Three</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Four</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Five</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Six</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Seven</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Eight</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Nine</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Here's what our customers are saying about us:</h2>
+            </div>
+  <div class="container">
+    <div class="col-lg-4">Customer 1</div>
+    <div class="col-lg-4"> Customer 2</div>
+    <div class="col-lg-4">Customer 3</div>
+    </div>
+</div>
 
         <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
+ <div class="row">
+  <div class="col-lg-4">
+    <img src="assets/logos/api_superstore_logo_by.png" alt="API Superstore Logo" width="350" height="150" align="center">
+   </div>
+   <div class="col-lg-4"> 
+     <h2>Contact us</h2>
+     <ul>
+       <li>Address</li>
+      <li>phone</li>
+      <li>email</li>
+     </ul>
+    </div>
+    <div class="col-lg-4">
+      <p>Get Started Button</p>
+    </div>
+      </div>
 
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->
+ <aside id="social">
+    <h2>Share</h2>
+            <ul class="social-links">
+                <li class="fa fa-twitter"><a href="http://twitter.com"></a></li>
+                <li class= "fa fa-facebook"><a href="http://facebook.com"></a></li>
+                <li class="fa fa-instagram"><a href="http://instagram.com"></a></li>
+            </ul>
+        </aside>
 
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
     </body>
 </html>
+
+
