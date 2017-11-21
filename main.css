@@ -19,6 +19,15 @@ body {
 h2{
   font-weight: bold;
 }
+.logo{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.business-info{
+  padding-top: 20px;
+  font-size: 120%;
+}
 .row{
   background-color: rgba(149, 172, 181, 0.7);
   margin-top: 20px;
@@ -75,5 +84,43 @@ ul.social-links{
 .fa-instagram {
   background: #efa021;
   color: white;
+}
+.media-heading{
+  font-size: x-large;
+}
+fa fa-check-circle{
+  font-size: x-large;
+}
+/*.media{
+  text-align: center;
+}*/
+.media-body{
+  padding-top: 8px;
+  padding-left: 10px
+}
+.contact{
+  padding-left: 40px;
+}
+ul{
+  list-style: none;
+}
+h3{
+  font-weight: bold;
+}
+input.MyButton {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #1a1e7a;
+color: #fccd23;
+border: 1px solid #1a1e7a;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color: #1a1e7a;
+background: #fccd23;
+border: 1px solid #fff;
 }
 
