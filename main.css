@@ -9,7 +9,7 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
     color: black;
-    background-image: url("design/images/icons_faded.png");
+    background-image: url("design/images/icons_faded2.png");
     background-attachment: fixed;
 }
 .navbar-brand{
@@ -124,3 +124,12 @@ background: #fccd23;
 border: 1px solid #fff;
 }
 
+/*.container p{
+  height: 80px;
+} */
+
+@media only screen and (max-width: 320px) {
+   body { 
+      font-size: 2em; 
+   }
+} 
