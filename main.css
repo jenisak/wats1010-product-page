@@ -21,15 +21,14 @@ h2{
 }
 .logo{
   padding: 0px;
-  margin: 0px;
-  text-align: center;
+  margin: 50px;
 }
 .business-info{
   padding-top: 20px;
   font-size: 120%;
 }
 .row{
-  background-color: rgba(149, 172, 181, 0.7);
+  background-color: rgba(149, 172, 181, 0.85);
   margin-top: 20px;
 }
 
@@ -53,7 +52,7 @@ h2{
 
 #social li:hover{
   background-color: gray;
-  opacity: .5;
+  opacity: .7;
 }
 
 ul.social-links{
@@ -91,9 +90,7 @@ ul.social-links{
 fa fa-check-circle{
   font-size: x-large;
 }
-/*.media{
-  text-align: center;
-}*/
+
 .media-body{
   padding-top: 8px;
   padding-left: 10px
@@ -110,6 +107,7 @@ h3{
 input.MyButton {
 width: 300px;
 padding: 20px;
+margin-top: 25px;
 cursor: pointer;
 font-weight: bold;
 font-size: 150%;
@@ -124,9 +122,6 @@ background: #fccd23;
 border: 1px solid #fff;
 }
 
-/*.container p{
-  height: 80px;
-} */
 
 @media only screen and (max-width: 320px) {
    body { 
